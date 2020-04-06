@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+  <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+  <link rel="stylesheet" href="./assets/css/colors1.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/bootstrap.css" />
+  <link href="https://fonts.googleapis.com/css?family=Uncial+Antiqua&display=swap" rel="stylesheet">
+  <title>Spell Viewer</title>
+</head>
+
+<body>
+
+  <div class="container-fluid">
+    <div class="wraper">
+      <div class="row">
+        <div class="col-12 card">
+          <div class="row"> 
+            <h4 class="search">Search: </h4>
+            <input class="searchBar" id='search' type="text">
+  
+            <h4 class="search">School: </h4>
+            <select id='school_search'>
+              <option value=""></option>
+              <option value="Conjuration">Conjuration</option>
+              <option value="Necromancy">Necromancy</option>
+              <option value="Evocation">Evocation</option>
+              <option value="Abjuration">Abjuration</option>
+              <option value="Transmutation">Transmutation</option>
+              <option value="Divination">Divination</option>
+              <option value="Enchantment">Enchantment</option>
+              <option value="Illusion">Illusion</option>
+            </select>
+  
+            <h4 class="search">Class: </h4>
+            <select id='class_search'>
+              <option value=""></option>
+              <option value="Bard">Bard</option>
+              <option value="Cleric">Cleric</option>
+              <option value="Druid">Druid</option>
+              <option value="Paladin">Paladin</option>
+              <option value="Ranger">Ranger</option>
+              <option value="Sorcerer">Sorcerer</option>
+              <option value="Warlock">Warlock</option>
+              <option value="Wizard">Wizard</option>
+            </select>
+  
+            <h4 class="search">Level: </h4>
+            <select id='level_search'>
+              <option value=""></option>
+              <option value="Cantrip">Cantrip</option>
+              <option value="1st-level">1st-level</option>
+              <option value="2nd-level">2nd-level</option>
+              <option value="3rd-level">3rd-level</option>
+              <option value="4th-level">4th-level</option>
+              <option value="5th-level">5th-level</option>
+              <option value="6th-level">6th-level</option>
+              <option value="7th-level">7th-level</option>
+              <option value="8th-level">8th-level</option>
+              <option value="9th-level">9th-level</option>
+            </select>
+  
+            <div class="check">
+              <input type="checkbox" id="ritual_search" name="ritual_search">
+              <label for="ritual_search">Ritual</label>
+            </div>
+            <div class="check">
+              <input type="checkbox" id="concentration_search" name="concentration_search">
+              <label for="concentration_search">Concentration</label>
+            </div>
+  
+          </div>
+        </div>
+      </div>
+      <div class="row menu-padding content">
+        <div class="col-3 card">
+          <h4>Magias</h4>
+          <div class="magic-list">
+            <ul id="magics">
+  
+            </ul>
+          </div>
+        </div>
+        <div class="col-8 card offset-1">
+  
+          <div class="info">
+            <div>
+              <div class="row">
+                <div class="col-12">
+                  <h1 id='spell_name'></h1>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-6">
+                  <h4 id='sources'></h4>
+                </div>
+                <div class="col-6">
+                  <h4 id='classes'></h4>
+                </div>
+              </div>
+  
+              <div style="padding-top: 25px" class="row">
+  
+                <div class="col-6">
+                  <h4 id='school'></h4>
+                  <h4 id='level'></h4>
+                  <h4 id='cast_time'></h4>
+                </div>
+                <div class="col-6">
+                  <h4 id='range'></h4>
+                  <h4 id='components'></h4>
+                  <h4 id='duration'></h4>
+                </div>
+  
+                <div class="col-12 description">
+                  <p id='desc'></p>
+                </div>
+  
+              </div>
+  
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+  
+
+
+  <script>
+    
+  </script>
+
+  <!-- You can also require other files to run in this process -->
+  <script src="./renderer.js"></script>
+  <script src="./assets/js/jquery.js"></script>
+  <script src="./node_modules/@popperjs/core/src/popper.js"></script>
+  <script src="./assets/js/bootstrap.js"></script>
+  <script src="./assets/js/functions.js"></script>
+</body>
+
+</html>

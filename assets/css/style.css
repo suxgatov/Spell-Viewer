@@ -1,0 +1,181 @@
+select{
+    
+    background-color: var(--color-2) !important;
+    border: none;
+    border-radius: 10px !important;
+    box-shadow: inset 10px 10px 54px -13px rgba(0,0,0,0.75);
+    color: var(--text);
+    width: auto;
+    outline: none;
+    font-family: 'Uncial Antiqua', cursive;
+    
+}
+
+body{
+    background-color: var(--color-1) !important;
+    width: 100%;
+    height: 100%;
+}
+
+
+h4{
+    font-size: 16px !important;
+    font-family: 'Uncial Antiqua', cursive;
+}
+
+label{
+    font-size: 16px !important;
+    font-family: 'Uncial Antiqua', cursive;
+}
+h1{
+    font-size: 24px !important;
+    font-family: 'Uncial Antiqua', cursive;
+}
+h5{
+    font-size: 14px !important;
+}
+ul{
+    list-style-type: none;
+    padding: 10px !important;
+}
+
+li{
+    background-color: var(--color-2) !important;
+    padding: 5px;
+    border-radius: 10px !important;
+    box-shadow: 10px 10px 26px -14px rgba(0,0,0,0.75);
+    margin-bottom: 5px;
+    font-size: 16px !important;
+    font-family: 'Uncial Antiqua', cursive;
+    cursor: pointer;
+}
+
+li:hover{
+    background-color: var(--color-3) !important;
+}
+
+.magic-list > ul > li > a{
+    font-size: 16px !important;
+    font-family: 'Uncial Antiqua', cursive;
+    color: var(--text) !important;
+    cursor: default;
+}
+.magic-list > ul > li > a:hover{
+    color: var(--text) !important;
+    text-decoration: none !important;
+}
+.magic-list{
+    background-color: var(--color-2);
+    border-radius: 10px !important;
+    box-shadow: inset 10px 10px 54px -13px rgba(0,0,0,0.75);
+}
+
+.magic-list {
+    max-height: 100%;
+    overflow: auto;
+    overflow-x: hidden;
+    direction:rtl; 
+}
+
+.card{
+    padding: 5px;
+    border-radius: 10px !important;
+    box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.75);
+    background-color: var(--color-2) !important;
+    color: var(--text);
+    max-height: 100%;
+}
+
+.info{
+    background-color: var(--color-2);
+    height: 100%;
+    border-radius: 10px !important;
+    box-shadow: inset 10px 10px 54px -13px rgba(0,0,0,0.75);
+    overflow: auto;
+    overflow-x: hidden;
+    direction:rtl; 
+}
+
+.info > div > div {
+    box-shadow: 10px 10px 26px -14px rgba(0,0,0,0.75);
+    background-color: var(--color-2);
+    height: 85%;
+    width: 97%;
+    margin: 10px !important;
+    padding: 10px ;
+    border-radius: 10px !important;
+}
+
+.search{
+    padding: 5px !important;
+    margin: 5px !important;
+}
+
+.content{
+    height: 560px;
+}
+.menu-padding{
+    padding-top: 25px;
+}
+
+.card:hover{
+    background-color: var(--color-2) !important;
+    
+}
+
+.selected{
+    background-color: var(--color-4) !important;
+}
+
+.container{
+}
+
+.description{
+    padding-top: 25px !important;
+}
+
+.check{
+    padding-left: 10px !important;
+    top: 25% !important;
+    position: relative;
+}
+
+.searchBar{
+    background-color: var(--color-2) !important;
+    border: none;
+    border-radius: 10px !important;
+    box-shadow: inset 10px 10px 54px -13px rgba(0,0,0,0.75);
+    color: var(--text);
+    width: 25%;
+    outline: none;
+    font-family: 'Uncial Antiqua', cursive;
+    padding-left: 10px;
+}
+
+.wraper{
+    margin: 25px !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: rgba(0,0,0,0);
+    border-radius: 25px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-3);
+    border-radius: 25px;
+    box-shadow: -12px 9px 43px -8px rgba(0,0,0,0.75);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-4);
+  }
+

@@ -10,7 +10,7 @@ It's intended to be a simple spell browser, without something to fancy.
 ## Spells Database
 
 The idea was to be able to use the software offline, so all the spells are stored in a json file.
-The file itself is not my own creation, so all credits go to @jcquinlan user.
+The file itself is not my own creation, so all credits go to [@jcquinlan](https://github.com/jcquinlan) user.
 The original file can be found in [this](https://github.com/jcquinlan/dnd-spells) directory.
 
 ## How to use run the project

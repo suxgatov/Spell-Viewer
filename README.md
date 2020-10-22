@@ -13,7 +13,7 @@ The idea was to be able to use the software offline, so all the spells are store
 The file itself is not my own creation, so all credits go to [@jcquinlan](https://github.com/jcquinlan) user.
 The original file can be found in [this](https://github.com/jcquinlan/dnd-spells) directory.
 
-## How to use run the project
+## How to run the project
 
 > Note that the following instructions where taken directly from default readme for electron projects.
 

@@ -3,10 +3,6 @@
 This directory is a little project I created while learning the basics of Electron.
 It's intended to be a simple spell browser, without something to fancy.
 
-## Compiled Project
-
-*Write text here*
-
 ## Spells Database
 
 The idea was to be able to use the software offline, so all the spells are stored in a json file.
